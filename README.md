@@ -15,6 +15,12 @@ Planning a large-scale event without data leads to either low participation or l
 *   **Success Metric:** Maximise participation and enjoyment while ensuring all activities run smoothly.
 
 ## My Analytical Approach
+
+<img width="921" height="61" alt="Project_Workflow drawio" src="https://github.com/user-attachments/assets/2f8a0ad7-6e02-44b5-a771-c771f98b9407" />
+
+*End-to-end process from problem definition through to execution and documentation.*
+
+
 ### 1. **Data Collection & Engineering**
 *   **Instrument:** Designed a structured Microsoft Forms survey distributed company-wide.
 *   **Metrics Captured:**
@@ -37,10 +43,21 @@ The analysis provided clear, actionable intelligence:
 *   **Stakeholder Reporting:** Synthesised findings into a PowerPoint deck for HR and site leadership, visually presenting the recommendation: **"A schedule of 8 sports, with a predicted participation rate of 88% based on survey data."**
 *   **Process Documentation:** All data, analysis, and final documents were centralised on OneDrive, creating an auditable trail and a template for future events.
 
+### Data-Driven Decision Model
+The core of the analysis was a viability model built in Excel that automated the go/no-go decision for each sport based on objective thresholds.
 
+**Key Logic Applied:**
+- **Teams Possible** = `FLOOR(Interested Count / Min. Players Required, 1)`
+- **Viability Rule:** Sport is viable **only if** `Teams Possible ≥ 1`
+- **Decision Automation:** Conditional formatting instantly highlighted non-viable options in red
+
+![Sports Viability Analysis Model](/assets/analysis_model_mockup.png)
+*The decision model showing 5 approved sports and 2 rejected due to insufficient sign-ups.*
+
+**Critical Insight:** The model flagged **basketball and cricket** for removal despite some interest (7 and 18 participants respectively) because they couldn't form minimum teams. This data-driven exclusion prevented what would have been failed activities on event day.
 
 ## Impact & Outcome
-*   **Informed Decision-Making:** Leadership approved the plan without revision, based on its clear data-backed rationale.
+*   **Informed Decision-Making:** The Excel model provided objective criteria that led to removing 2 non-viable sports, reallocating their budget and time slots to more popular activities.
 *   **Operational Efficiency:** The event ran to schedule with no last-minute cancellations or resource shortages.
 *   **Increased Engagement:** High participation rates were achieved as the programme reflected actual employee preferences.
 *   **Legacy Asset:** The analysis model and survey framework were saved as reusable templates for future site events.
