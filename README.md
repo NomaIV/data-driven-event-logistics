@@ -37,13 +37,8 @@ Planning a large-scale event without data leads to either low participation or l
     *   **Popularity Ranking & Resource Allocation:** Sorted activities by popularity to prioritise scheduling and allocate prime time slots to high-demand sports.
     *   **Time-Constraint Modelling:** Built a simple scheduling matrix in Excel to test how many matches/rounds of each viable sport could fit into the day.
 
-  ### 3. **Insights & Decision Support**
-The analysis provided clear, actionable intelligence:
-*   **Quantified Demand:** Identified the top 5 most popular sports and, crucially, **2 non-viable activities** that were removed from the plan, saving budget and management focus.
-*   **Stakeholder Reporting:** Synthesised findings into a PowerPoint deck for HR and site leadership, visually presenting the recommendation: **"A schedule of 8 sports, with a predicted participation rate of 88% based on survey data."**
-*   **Process Documentation:** All data, analysis, and final documents were centralised on OneDrive, creating an auditable trail and a template for future events.
+ ### 3. Data-Driven Decision Model
 
-### Data-Driven Decision Model
 The core of the analysis was a viability model built in Excel that automated the go/no-go decision for each sport based on objective thresholds.
 
 **Key Logic Applied:**
@@ -51,12 +46,23 @@ The core of the analysis was a viability model built in Excel that automated the
 - **Viability Rule:** Sport is viable **only if** `Teams Possible ≥ 1`
 - **Decision Automation:** Conditional formatting instantly highlighted non-viable options in red
 
-![Sports Viability Analysis Model](/assets/analysis_model_mockup.png)
+<img width="1175" height="176" alt="analysis_model_mockup" src="https://github.com/user-attachments/assets/7c5b0e29-152d-472c-8499-eb42f5d4040d" />
 *The decision model showing 5 approved sports and 2 rejected due to insufficient sign-ups.*
 
 **Critical Insight:** The model flagged **basketball and cricket** for removal despite some interest (7 and 18 participants respectively) because they couldn't form minimum teams. This data-driven exclusion prevented what would have been failed activities on event day.
 
+  ### 4. **Insights & Decision Support**
+The analysis provided clear, actionable intelligence:
+*   **Quantified Demand:** Identified the top 5 most popular sports and, crucially, **2 non-viable activities** that were removed from the plan, saving budget and management focus.
+*   **Stakeholder Reporting:** Synthesised findings into a PowerPoint deck for HR and site leadership, visually presenting the recommendation: **"A schedule of 5 sports, with a predicted participation rate of 88% based on survey data."**
+*   **Process Documentation:** All data, analysis, and final documents were centralised on OneDrive, creating an auditable trail and a template for future events.
+
+
 ## Impact & Outcome
+
+<img width="837" height="191" alt="Analysis Summary" src="https://github.com/user-attachments/assets/ae367379-c494-4bd4-a3e7-34b519aef3a0" />
+
+*Executive summary showing the impact of data-driven decisions: 2 sports removed, preventing failed activities.*
 *   **Informed Decision-Making:** The Excel model provided objective criteria that led to removing 2 non-viable sports, reallocating their budget and time slots to more popular activities.
 *   **Operational Efficiency:** The event ran to schedule with no last-minute cancellations or resource shortages.
 *   **Increased Engagement:** High participation rates were achieved as the programme reflected actual employee preferences.
