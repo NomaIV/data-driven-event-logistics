@@ -75,12 +75,31 @@ The analysis provided clear, actionable intelligence:
 *   **Project Lifecycle Management:** Ownership from data collection through to execution support.
 
 ## Repository Guide
-*   `/docs`: Detailed written breakdown of each project phase.
-*   `/assets`: Conceptual diagrams illustrating the analysis workflow.
-*   `/templates`: Anonymised, generic versions of the key tools (Excel model, PPT report).
+### `/docs` – Complete Process Documentation
+- `1_project_overview.md` – Business context, problem statement, and objectives
+- `2_data_collection.md` – Survey design methodology and implementation
+- `3_analysis_process.md` – Analytical framework, technical approach, and modeling methodology
+- `4_insights_recommendations.md` – Key findings, strategic impact, and business outcomes
+
+### `/assets` – Visual Documentation Suite
+- `project_workflow.png` – End-to-end analytics process visualization
+- `analysis_summary.png` – Executive summary of key insights and decisions
+- `analysis_model_mockup.png` – Technical visualization of viability modeling approach
+- `workflow_explanation.md` – Detailed phase-by-phase breakdown of methodology
+
+### `/templates` – Reusable Analytical Components
+- `excel_viability_model.xlsx` – Core analytical tool with sample data and formulas
+- `stakeholder_report_framework.md` – Presentation structure and communication framework
 
 ---
-**Disclaimer:** This repository contains a **case study methodology** only. All specific data, internal branding, and confidential information from Unilever have been removed. The work is presented to demonstrate analytical process and problem-solving skills.
+
+### Case Study Highlights:
+- **End-to-End Analytics Project**: From problem definition through to implemented solution
+- **Data-Driven Decision Making**: Objective viability modeling informed strategic choices
+- **Measurable Impact**: 85% forecasted participation achieved with optimized resource allocation
+- **Professional Documentation**: Complete methodology transparency for reproducibility
+
+*Note: All data has been anonymized for portfolio presentation while preserving analytical integrity.*
 
 
 
