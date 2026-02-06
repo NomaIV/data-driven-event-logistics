@@ -6,7 +6,7 @@
 - Teams Possible = FLOOR(Interested Count / Minimum Players Required, 1)
 - Viability Decision = IF(Teams Possible ≥ 1, "Viable", "Not Viable")
 
-**Excel Implementation with Actual Data:**
+**Excel Implementation with Data:**
 
 | Sporting Code | Interested Count | Min. Players Required | Teams Possible | Viable? | Decision |
 |---------------|------------------|-----------------------|----------------|---------|----------|
