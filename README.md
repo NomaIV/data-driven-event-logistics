@@ -88,7 +88,7 @@ The analysis provided clear, actionable intelligence:
 - `workflow_explanation.md` – Detailed phase-by-phase breakdown of methodology
 
 ### `/templates` – Reusable Analytical Components
-- `excel_viability_model.xlsx` – Core analytical tool with sample data and formulas
+- `analytical_framework.md` – Core modeling methodology and formula implementation
 - `stakeholder_report_framework.md` – Presentation structure and communication framework
 
 ---
@@ -99,8 +99,7 @@ The analysis provided clear, actionable intelligence:
 - **Measurable Impact**: 85% forecasted participation achieved with optimized resource allocation
 - **Professional Documentation**: Complete methodology transparency for reproducibility
 
-*Note: All data has been anonymized for portfolio presentation while preserving analytical integrity.*
-
+*Note: The Excel viability model contains proprietary company data and cannot be shared publicly. The analytical framework and methodology are fully documented above.*
 
 
 
