@@ -3,8 +3,8 @@
 **Core Viability Model**
 
 **Formula Implementation:**
-Teams Possible = FLOOR(Interested Count / Minimum Players Required, 1)
-Viability Decision = IF(Teams Possible ≥ 1, "Viable", "Not Viable")
+- Teams Possible = FLOOR(Interested Count / Minimum Players Required, 1)
+- Viability Decision = IF(Teams Possible ≥ 1, "Viable", "Not Viable")
 
 **Excel Implementation with Actual Data:**
 
